@@ -5,3 +5,5 @@ Conceito de listas circulares em Java
 - Implementação dos métodos getNo e get;
 - Implementação do método remove;
 - Implementação do método add;
+- Implementação do método toString;
+
