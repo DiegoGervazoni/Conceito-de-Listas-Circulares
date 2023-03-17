@@ -6,4 +6,4 @@ Conceito de listas circulares em Java
 - Implementação do método remove;
 - Implementação do método add;
 - Implementação do método toString;
-
+- Implementação da classe ListaCircular.
