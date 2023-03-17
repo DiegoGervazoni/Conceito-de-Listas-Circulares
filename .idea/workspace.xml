@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fb38f74-65b5-402f-ac45-118e6174f8c7" name="Changes" comment="Implementacao dos metodos size e isEmpty">
+    <list default="true" id="1fb38f74-65b5-402f-ac45-118e6174f8c7" name="Changes" comment="Implementacao dos metodos getNo e get">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/estudos/listacircular/ListaCircular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/estudos/listacircular/ListaCircular.java" afterDir="false" />
     </list>
@@ -70,12 +70,20 @@
       <option name="project" value="LOCAL" />
       <updated>1679079354348</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementacao dos metodos getNo e get">
+      <created>1679080630576</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679080630576</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Implementacao dos metodos size e isEmpty" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementacao dos metodos size e isEmpty" />
+    <MESSAGE value="Implementacao dos metodos getNo e get" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementacao dos metodos getNo e get" />
   </component>
 </project>
