@@ -12,14 +12,14 @@ public class ListaCircular<T> {
         this.tamanhoLista = 0;
     }
 
-    public void add(T conteudo){
+    public void add(T conteudo) {
         No<T> novoNo = new No<>(conteudo);
 
-        if(this.tamanhoLista == 0){
-            this.cabeca =  novoNo;
+        if (this.tamanhoLista == 0) {
+            this.cabeca = novoNo;
             this.cauda = this.cabeca;
             this.cabeca.setNoProximo(cauda);
-        }else {
+        } else {
             novoNo.setNoProximo(this.cauda);
             this.cabeca.setNoProximo(novoNo);
             this.cauda = novoNo;
@@ -78,4 +78,18 @@ public class ListaCircular<T> {
         return this.tamanhoLista;
     }
 
+    @Override
+    public String toString() {
+        String strRetorno = "";
+
+        No<T> noAuxiliar = this.cauda;
+        for (int i = 0; i < this.size(); i++) {
+            strRetorno += "[No{conteudo=" + noAuxiliar.getConteudo() + "}]--->";
+            noAuxiliar = noAuxiliar.getNoProximo();
+        }
+
+        strRetorno += this.size() != 0 ? "(Retorna ao inicio)" : "[]";
+
+        return strRetorno;
+    }
 }
